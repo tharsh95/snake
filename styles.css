@@ -1,0 +1,25 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  canvas {
+    border: 1px solid black;
+  }
+  #leaderboard {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30vw;
+  }
+  #highScoresList {
+    list-style-type: none;
+    align-items: center;
+  }
+  #container{
+    display: flex;
+    justify-content:space-between;
+  }
